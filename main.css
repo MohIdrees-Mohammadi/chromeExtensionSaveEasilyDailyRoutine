@@ -1,0 +1,71 @@
+:root {
+    --priColor: rgb(36, 36, 95);
+    --secColor: rgb(31, 31, 77);
+}
+
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 500px;
+    max-width: 800px;
+
+}
+
+input {
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    height: 50px;
+    background-color: white;
+    border: 2px solid var(--priColor);
+    font-size: 1rem;
+    ;
+
+}
+
+button {
+    background-color: var(--priColor);
+    border: 1px solid var(--priColor);
+    margin-top: 4px;
+    font-size: 1.3rem;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+
+}
+
+button:hover {
+    background-color: var(--secColor);
+}
+
+#deleteBtn {
+    background-color: White;
+    border: 1px solid var(--priColor);
+    margin-top: 4px;
+    font-size: 1.3rem;
+    color: var(--priColor);
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+#deleteBtn:hover {
+    background-color: rgb(223, 228, 241);
+
+}
+
+ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 5px;
+}
+
+li a {
+    text-decoration: none;
+    color: var(--priColor);
+    font-weight: bold;
+}
